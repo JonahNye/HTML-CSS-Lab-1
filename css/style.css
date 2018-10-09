@@ -1,0 +1,145 @@
+
+
+
+/* Note: to be viewed at 755 by 571 px!*/
+
+
+
+
+
+
+/* Nav Bar Styling*/
+
+header a {
+  float: left;
+  font-weight: bold;
+  font-size: 80%;
+  font-family: arial;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+nav {
+  float: right;
+  color: #69696a;
+  font-family: arial;
+  margin-top:
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+.anc {
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+#hireus {
+  background-color: black;
+  color: white;
+  border: 3px;
+  border-radius: 20px;
+  padding: 8px 25px 8px 25px;
+  margin-top: -1px;
+}
+
+/* Body content: text styling */
+
+.flex-container {
+  display: flex;
+}
+
+.bodycontent {
+  margin-top: 125px;
+  flex: 50%;
+  padding-left: 10px;
+
+  color: grey;
+
+}
+
+.text {
+  padding-left: 15px;
+  border-left: 1.5px solid grey;
+}
+
+.title {
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+/*Picture Container */
+
+/* Three deepest circles of Hell */
+.picturecontainer {
+  position: relative;
+  flex: 50%;
+
+}
+
+
+.peach-circle {
+  height: 145px;
+  width: 145px;
+  background-color: rgba(247, 193, 162, 0.7) ;
+  border-radius: 50%;
+  position: absolute;
+  left: 90%;
+  transform: translateX(-90%);
+  top: 80%;
+  transform: translate(-80%);
+}
+
+.purple-circle {
+  height: 95px;
+  width: 95px;
+  background-color: rgba(207, 130, 213, 0.6) ;
+  border-radius: 50%;
+  top: 60%;
+  transform: translateY(-60%);
+  left: 91%;
+  transform: translateX(-91%);
+
+  position: absolute;
+}
+
+.pink-circle {
+  height: 250px;
+  width: 250px;
+  background-color: rgba(247, 136, 167, 0.6) ;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 45%;
+  transform: translateX(-45%);
+  position: absolute;
+}
+
+
+
+
+
+
+/* Scroll button styling */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.footerboi {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+  width: 15%;
+  border: none;
+  margin-top: 180px;
+
+
+
+}
